@@ -123,7 +123,6 @@ Dataset freely available.*
 
 ***
 
-<div style="height:200px" />
 
 
 ## Case Studies
