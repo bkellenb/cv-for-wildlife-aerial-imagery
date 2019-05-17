@@ -2,6 +2,8 @@
 
 This page is intended to consolidate recent efforts on animal conservation using remote sensing (mainly Unmanned Aerial Vehicles (UAVs), or drones).
 
+**NOTE:** repo is private until rights have been obtained for figures and enough content has been added.
+
 
 <br />
 
