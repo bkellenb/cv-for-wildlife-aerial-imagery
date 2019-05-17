@@ -13,8 +13,6 @@ This page is intended to consolidate recent efforts on animal conservation using
 
 
 <!-- vscode-markdown-toc -->
-- [Computer Vision and Aerial Imagery for Wildlife Conservation](#computer-vision-and-aerial-imagery-for-wildlife-conservation)
-  - [Contents](#contents)
   - [1. <a name='ResearchArticles'></a>Research Articles](#1-a-nameresearcharticlesaresearch-articles)
     - [1.1. <a name='AnimalDetection'></a>Animal Detection](#11-a-nameanimaldetectionaanimal-detection)
     - [1.2. <a name='AnimalTracking'></a>Animal Tracking](#12-a-nameanimaltrackingaanimal-tracking)
