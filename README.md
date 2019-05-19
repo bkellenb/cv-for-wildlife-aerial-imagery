@@ -8,23 +8,24 @@ This page is intended to consolidate recent efforts on animal conservation using
 <br />
 
 
-## Contents
+##  1. <a name='Contents'></a>Contents
 
 
 
 <!-- vscode-markdown-toc -->
-  - [1. <a name='ResearchArticles'></a>Research Articles](#1-a-nameresearcharticlesaresearch-articles)
-    - [1.1. <a name='AnimalDetection'></a>Animal Detection](#11-a-nameanimaldetectionaanimal-detection)
-    - [1.2. <a name='AnimalTracking'></a>Animal Tracking](#12-a-nameanimaltrackingaanimal-tracking)
-    - [1.3. <a name='ThermalImagery'></a>Thermal Imagery](#13-a-namethermalimageryathermal-imagery)
-  - [2. <a name='CaseStudies'></a>Case Studies](#2-a-namecasestudiesacase-studies)
-    - [2.1. <a name='Anti-PoachinginTanzania'></a>Anti-Poaching in Tanzania](#21-a-nameanti-poachingintanzaniaaanti-poaching-in-tanzania)
-    - [2.2. <a name='ProtectingKenyasElephantsfromAbove'></a>Protecting Kenya's Elephants from Above](#22-a-nameprotectingkenyaselephantsfromaboveaprotecting-kenyas-elephants-from-above)
-    - [2.3. <a name='WheresBungaTrackingOrangutanswithDronesandGnu-Radio'></a>Where’s Bunga? Tracking Orangutans with Drones and Gnu-Radio](#23-a-namewheresbungatrackingorangutanswithdronesandgnu-radioawheres-bunga-tracking-orangutans-with-drones-and-gnu-radio)
-    - [2.4. <a name='ChimpanzeecensusesinTchimpoungaCongo'></a>Chimpanzee censuses in Tchimpounga, Congo](#24-a-namechimpanzeecensusesintchimpoungacongoachimpanzee-censuses-in-tchimpounga-congo)
-  - [3. <a name='Organizations'></a>Organizations](#3-a-nameorganizationsaorganizations)
-    - [3.1. <a name='ConservationDroneshttps:conservationdrones.org'></a>ConservationDrones](#31-a-nameconservationdroneshttpsconservationdronesorgaconservationdrones)
-    - [3.2. <a name='VulcanInc.https:vulcan.com'></a>Vulcan Inc.](#32-a-namevulcaninchttpsvulcancomavulcan-inc)
+  - [2. <a name='ResearchArticles'></a>Research Articles](#2-a-nameresearcharticlesaresearch-articles)
+    - [2.1. <a name='AnimalDetection'></a>Animal Detection](#21-a-nameanimaldetectionaanimal-detection)
+    - [2.2. <a name='AnimalTracking'></a>Animal Tracking](#22-a-nameanimaltrackingaanimal-tracking)
+    - [2.3. <a name='ThermalImagery'></a>Thermal Imagery](#23-a-namethermalimageryathermal-imagery)
+  - [3. <a name='CaseStudies'></a>Case Studies](#3-a-namecasestudiesacase-studies)
+    - [3.1. <a name='Anti-PoachinginTanzania'></a>Anti-Poaching in Tanzania](#31-a-nameanti-poachingintanzaniaaanti-poaching-in-tanzania)
+    - [3.2. <a name='ProtectingKenyasElephantsfromAbove'></a>Protecting Kenya's Elephants from Above](#32-a-nameprotectingkenyaselephantsfromaboveaprotecting-kenyas-elephants-from-above)
+    - [3.3. <a name='WheresBungaTrackingOrangutanswithDronesandGnu-Radio'></a>Where’s Bunga? Tracking Orangutans with Drones and Gnu-Radio](#33-a-namewheresbungatrackingorangutanswithdronesandgnu-radioawheres-bunga-tracking-orangutans-with-drones-and-gnu-radio)
+    - [3.4. <a name='ChimpanzeecensusesinTchimpoungaCongo'></a>Chimpanzee censuses in Tchimpounga, Congo](#34-a-namechimpanzeecensusesintchimpoungacongoachimpanzee-censuses-in-tchimpounga-congo)
+    - [3.5. <a name='DeepRealitySimulationforAutomatedPoacherDetectionAnandRamanandMarkHamiltonMicrosoft'></a>Deep Reality Simulation for Automated Poacher Detection Anand Raman and Mark Hamilton (Microsoft)](#35-a-namedeeprealitysimulationforautomatedpoacherdetectionanandramanandmarkhamiltonmicrosoftadeep-reality-simulation-for-automated-poacher-detection-anand-raman-and-mark-hamilton-microsoft)
+  - [4. <a name='Organizations'></a>Organizations](#4-a-nameorganizationsaorganizations)
+    - [4.1. <a name='ConservationDroneshttps:conservationdrones.org'></a>ConservationDrones](#41-a-nameconservationdroneshttpsconservationdronesorgaconservationdrones)
+    - [4.2. <a name='VulcanInc.https:vulcan.com'></a>Vulcan Inc.](#42-a-namevulcaninchttpsvulcancomavulcan-inc)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -45,7 +46,7 @@ This page is intended to consolidate recent efforts on animal conservation using
 
 
 
-##  1. <a name='ResearchArticles'></a>Research Articles
+##  2. <a name='ResearchArticles'></a>Research Articles
 
 This section primarily covers work that uses computer vision and machine learning (in particular deep learning) on aspects around wildlife conservation using drones (e.g. animal detection or tracking).
 
@@ -73,7 +74,7 @@ The list is organized into topics, and therein ordered alphabetically by the las
 <br />
 
 
-###  1.1. <a name='AnimalDetection'></a>Animal Detection
+###  2.1. <a name='AnimalDetection'></a>Animal Detection
 
 **Chen, Chien-Hung, and Keng-Hao Liu. "Stingray detection of aerial images with region-based convolution neural network." _2017 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW)_. IEEE, 2017.**
 *(description still pending)*<br />
@@ -160,7 +161,7 @@ Dataset freely available.*<br />
 <br />
 
 
-###  1.2. <a name='AnimalTracking'></a>Animal Tracking
+###  2.2. <a name='AnimalTracking'></a>Animal Tracking
 
 **[Andrew, William, Colin Greatwood, and Tilo Burghardt. "Visual localisation and individual identification of Holstein Friesian cattle via deep learning." Proceedings of the IEEE International Conference on Computer Vision. 2017.](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w41/Andrew_Visual_Localisation_and_ICCV_2017_paper.pdf)**
 ![William et al.](media/paper_William.png)
@@ -175,7 +176,7 @@ Dataset freely available.*<br />
 
 
 
-###  1.3. <a name='ThermalImagery'></a>Thermal Imagery
+###  2.3. <a name='ThermalImagery'></a>Thermal Imagery
 
 **[Longmore, S. N., et al. "Adapting astronomical source detection software to help detect animals in thermal images obtained by unmanned aerial systems." International Journal of Remote Sensing 38.8-10 (2017): 2623-2638.](https://arxiv.org/pdf/1701.01611.pdf)**
 ![Longmore et al.](media/paper_Longmore.png)
@@ -213,9 +214,9 @@ Dataset freely available.*<br />
 <br />
 <br />
 
-##  2. <a name='CaseStudies'></a>Case Studies
+##  3. <a name='CaseStudies'></a>Case Studies
 
-###  2.1. <a name='Anti-PoachinginTanzania'></a>Anti-Poaching in Tanzania
+###  3.1. <a name='Anti-PoachinginTanzania'></a>Anti-Poaching in Tanzania
 
 ![Delair IR](media/caseStudy_delair.png)
 
@@ -226,7 +227,7 @@ Collaboration of drone manufacturer [Delair](https://delair.aero/antipoaching-op
 <br />
 
 
-###  2.2. <a name='ProtectingKenyasElephantsfromAbove'></a>Protecting Kenya's Elephants from Above
+###  3.2. <a name='ProtectingKenyasElephantsfromAbove'></a>Protecting Kenya's Elephants from Above
 
 ![Mara Elephant](media/caseStudy_maraElephant.png)
 
@@ -237,7 +238,7 @@ One of the efforts made by the [Mara Elephant Project](https://maraelephantproje
 <br />
 
 
-###  2.3. <a name='WheresBungaTrackingOrangutanswithDronesandGnu-Radio'></a>Where’s Bunga? Tracking Orangutans with Drones and Gnu-Radio
+###  3.3. <a name='WheresBungaTrackingOrangutanswithDronesandGnu-Radio'></a>Where’s Bunga? Tracking Orangutans with Drones and Gnu-Radio
 
 ![Orangutan tracking](media/caseStudy_bunga.png)
 
@@ -249,10 +250,20 @@ Study involved the [International Animal Rescue](https://www.internationalanimal
 <br />
 
 
-###  2.4. <a name='ChimpanzeecensusesinTchimpoungaCongo'></a>Chimpanzee censuses in Tchimpounga, Congo
+###  3.4. <a name='ChimpanzeecensusesinTchimpoungaCongo'></a>Chimpanzee censuses in Tchimpounga, Congo
 
 Collaboration between the [Jane Goodall Institute of Canada](https://janegoodall.ca) and [Conservation Drones](https://conservationdrones.org/) on drone employment in a Congolesian reserve. Mentioned applications include censuses of chimpanzees.
 [Video](https://www.youtube.com/watch?v=cUzdCH-PDy4)
+
+
+<br />
+
+
+###  3.5. <a name='DeepRealitySimulationforAutomatedPoacherDetectionAnandRamanandMarkHamiltonMicrosoft'></a>Deep Reality Simulation for Automated Poacher Detection Anand Raman and Mark Hamilton (Microsoft)
+
+![Auto poacher detection](media/caseStudy_MSSpark.png)
+Study in the context of Microsoft's [AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth) programme. Addresses AirSim-W (see paper by Bondi et al. above), thermal imagery, Faster R-CNN, domain adaptation using GANs and an implementation using MS Azure and Apache Spark.<br />
+[Video](https://www.youtube.com/watch?v=m5vAF231XZQ)
 
 
 
@@ -267,12 +278,12 @@ Collaboration between the [Jane Goodall Institute of Canada](https://janegoodall
 
 
 
-##  3. <a name='Organizations'></a>Organizations
+##  4. <a name='Organizations'></a>Organizations
 
 These are enterprises, startups, NGOs and the like that are involved in some way with animal conservation.
 
 
-###  3.1. <a name='ConservationDroneshttps:conservationdrones.org'></a>[ConservationDrones](https://conservationdrones.org/)
+###  4.1. <a name='ConservationDroneshttps:conservationdrones.org'></a>[ConservationDrones](https://conservationdrones.org/)
 
 ![ConservationDrones.org](media/company_consDrones.png)
 
@@ -282,7 +293,7 @@ These are enterprises, startups, NGOs and the like that are involved in some way
 
 
 
-###  3.2. <a name='VulcanInc.https:vulcan.com'></a>[Vulcan Inc.](https://vulcan.com/)
+###  4.2. <a name='VulcanInc.https:vulcan.com'></a>[Vulcan Inc.](https://vulcan.com/)
 
 ![Vulcan Inc.](media/company_vulcan.png)
 
