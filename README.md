@@ -13,6 +13,8 @@ This page is intended to consolidate recent efforts on animal conservation using
 
 
 <!-- vscode-markdown-toc -->
+- [Computer Vision and Aerial Imagery for Wildlife Conservation](#computer-vision-and-aerial-imagery-for-wildlife-conservation)
+  - [1. <a name='Contents'></a>Contents](#1-a-namecontentsacontents)
   - [2. <a name='ResearchArticles'></a>Research Articles](#2-a-nameresearcharticlesaresearch-articles)
     - [2.1. <a name='AnimalDetection'></a>Animal Detection](#21-a-nameanimaldetectionaanimal-detection)
     - [2.2. <a name='AnimalTracking'></a>Animal Tracking](#22-a-nameanimaltrackingaanimal-tracking)
@@ -25,7 +27,8 @@ This page is intended to consolidate recent efforts on animal conservation using
     - [3.5. <a name='DeepRealitySimulationforAutomatedPoacherDetectionAnandRamanandMarkHamiltonMicrosoft'></a>Deep Reality Simulation for Automated Poacher Detection Anand Raman and Mark Hamilton (Microsoft)](#35-a-namedeeprealitysimulationforautomatedpoacherdetectionanandramanandmarkhamiltonmicrosoftadeep-reality-simulation-for-automated-poacher-detection-anand-raman-and-mark-hamilton-microsoft)
   - [4. <a name='Organizations'></a>Organizations](#4-a-nameorganizationsaorganizations)
     - [4.1. <a name='ConservationDroneshttps:conservationdrones.org'></a>ConservationDrones](#41-a-nameconservationdroneshttpsconservationdronesorgaconservationdrones)
-    - [4.2. <a name='VulcanInc.https:vulcan.com'></a>Vulcan Inc.](#42-a-namevulcaninchttpsvulcancomavulcan-inc)
+    - [4.2. <a name='Hensoldt'></a>Hensoldt](#42-a-namehensoldtahensoldt)
+    - [4.3. <a name='VulcanInc.https:vulcan.com'></a>Vulcan Inc.](#43-a-namevulcaninchttpsvulcancomavulcan-inc)
 
 <!-- vscode-markdown-toc-config
 	numbering=true
@@ -268,6 +271,8 @@ Study in the context of Microsoft's [AI for Earth](https://www.microsoft.com/en-
 
 
 
+
+
 <br />
 <br />
 
@@ -288,12 +293,22 @@ These are enterprises, startups, NGOs and the like that are involved in some way
 ![ConservationDrones.org](media/company_consDrones.png)
 
 
+<br />
+
+
+###  4.2. <a name='Hensoldt'></a>[Hensoldt](https://www.hensoldt.net/)
+![Hensoldt](media/caseStudy_Hensoldt.png)
+German company [Hensoldt](https://www.hensoldt.net/) rolling out a programme to stem rhino poaching in South Africa.
+
+[Video](https://www.youtube.com/watch?v=4nCCYckAQDc)
+
+
 
 <br />
 
 
 
-###  4.2. <a name='VulcanInc.https:vulcan.com'></a>[Vulcan Inc.](https://vulcan.com/)
+###  4.3. <a name='VulcanInc.https:vulcan.com'></a>[Vulcan Inc.](https://vulcan.com/)
 
 ![Vulcan Inc.](media/company_vulcan.png)
 
