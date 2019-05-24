@@ -1,9 +1,7 @@
-# Computer Vision and Aerial Imagery for Wildlife Conservation
-
 This survey is intended to consolidate recent efforts on animal conservation using remote imaging (UAVs, manned flights, or satellite imagery).  This page is maintained by <a href="https://www.wur.nl/en/Persons/Benjamin-BA-Benjamin-Kellenberger-MSc.htm">Beni Kellenberger</a> and <a href="http://dmorris.net">Dan Morris</a>.  Contributions are welcome!  Please submit additions or corrections as GitHub pull requests.
 
 
-##  1. <a name='Contents'></a>Contents
+#  1. <a name='Contents'></a>Contents
 
   [1. Contents](#Contents)<br/>
   [2. Research Articles](#ResearchArticles)<br/>
@@ -12,7 +10,7 @@ This survey is intended to consolidate recent efforts on animal conservation usi
 <br/>
  
  
-##  2. <a name='ResearchArticles'></a>Research Articles
+#  2. <a name='ResearchArticles'></a>Research Articles
 
 Papers are ordered alphabetically by the last name of the first author. If possible, links, images and a brief summary are provided.<br/><br/>
 
@@ -139,7 +137,7 @@ Uses a rendering engine ([AirSim](https://github.com/microsoft/AirSim), based on
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Bondi_AirSim.png" width="500"><br/><br/>
 
 
-## 3. <a name='CaseStudies'></a>Case Studies
+# 3. <a name='CaseStudies'></a>Case Studies
 
 **Delair / Bathawk**
 
@@ -194,7 +192,7 @@ German sensor manufacturer [Hensoldt](https://www.hensoldt.net/) presents a prog
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caseStudy_Hensoldt.png" width="500"><br/><br/>
 
 
-##  4. <a name='FurtherReading'></a>Further Reading
+#  4. <a name='FurtherReading'></a>Further Reading
 
 [ConservationDrones.org blog: applications](https://conservationdrones.org/category/drone-applications/) (incredible collection of additional case studies)<br/><br/>
 [ConservationDrones.org blog: publications](https://conservationdrones.org/publications-on-drones-and-conservation/) (incredible collection of additional research papers)<br/><br/>
