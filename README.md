@@ -1,316 +1,202 @@
 # Computer Vision and Aerial Imagery for Wildlife Conservation
 
-This page is intended to consolidate recent efforts on animal conservation using remote sensing (mainly Unmanned Aerial Vehicles (UAVs), or drones).
-
-**NOTE:** repo is private until rights have been obtained for figures and enough content has been added.
-
-
-<br />
+This survey is intended to consolidate recent efforts on animal conservation using remote imaging (UAVs, manned flights, or satellite imagery).  This page is maintained by <a href="https://www.wur.nl/en/Persons/Benjamin-BA-Benjamin-Kellenberger-MSc.htm">Beni Kellenberger</a> and <a href="http://dmorris.net">Dan Morris</a>.  Contributions are welcome!  Please submit additions or corrections as GitHub pull requests.
 
 
 ##  1. <a name='Contents'></a>Contents
 
-
-
-<!-- vscode-markdown-toc -->
-- [Computer Vision and Aerial Imagery for Wildlife Conservation](#computer-vision-and-aerial-imagery-for-wildlife-conservation)
-  - [1. <a name='Contents'></a>Contents](#1-a-namecontentsacontents)
-  - [2. <a name='ResearchArticles'></a>Research Articles](#2-a-nameresearcharticlesaresearch-articles)
-    - [2.1. <a name='AnimalDetection'></a>Animal Detection](#21-a-nameanimaldetectionaanimal-detection)
-    - [2.2. <a name='AnimalTracking'></a>Animal Tracking](#22-a-nameanimaltrackingaanimal-tracking)
-    - [2.3. <a name='ThermalImagery'></a>Thermal Imagery](#23-a-namethermalimageryathermal-imagery)
-  - [3. <a name='CaseStudies'></a>Case Studies](#3-a-namecasestudiesacase-studies)
-    - [3.1. <a name='Anti-PoachinginTanzania'></a>Anti-Poaching in Tanzania](#31-a-nameanti-poachingintanzaniaaanti-poaching-in-tanzania)
-    - [3.2. <a name='ProtectingKenyasElephantsfromAbove'></a>Protecting Kenya's Elephants from Above](#32-a-nameprotectingkenyaselephantsfromaboveaprotecting-kenyas-elephants-from-above)
-    - [3.3. <a name='WheresBungaTrackingOrangutanswithDronesandGnu-Radio'></a>Where’s Bunga? Tracking Orangutans with Drones and Gnu-Radio](#33-a-namewheresbungatrackingorangutanswithdronesandgnu-radioawheres-bunga-tracking-orangutans-with-drones-and-gnu-radio)
-    - [3.4. <a name='ChimpanzeecensusesinTchimpoungaCongo'></a>Chimpanzee censuses in Tchimpounga, Congo](#34-a-namechimpanzeecensusesintchimpoungacongoachimpanzee-censuses-in-tchimpounga-congo)
-    - [3.5. <a name='DeepRealitySimulationforAutomatedPoacherDetectionAnandRamanandMarkHamiltonMicrosoft'></a>Deep Reality Simulation for Automated Poacher Detection Anand Raman and Mark Hamilton (Microsoft)](#35-a-namedeeprealitysimulationforautomatedpoacherdetectionanandramanandmarkhamiltonmicrosoftadeep-reality-simulation-for-automated-poacher-detection-anand-raman-and-mark-hamilton-microsoft)
-  - [4. <a name='Organizations'></a>Organizations](#4-a-nameorganizationsaorganizations)
-    - [4.1. <a name='ConservationDroneshttps:conservationdrones.org'></a>ConservationDrones](#41-a-nameconservationdroneshttpsconservationdronesorgaconservationdrones)
-    - [4.2. <a name='Hensoldt'></a>Hensoldt](#42-a-namehensoldtahensoldt)
-    - [4.3. <a name='VulcanInc.https:vulcan.com'></a>Vulcan Inc.](#43-a-namevulcaninchttpsvulcancomavulcan-inc)
-
-<!-- vscode-markdown-toc-config
-	numbering=true
-	autoSave=true
-	/vscode-markdown-toc-config -->
-<!-- /vscode-markdown-toc -->
-
-
-
-<br />
-<br />
-
-***
-
-<br />
-<br />
-
-
-
-
+  [1. Contents](#Contents)<br/>
+  [2. Research Articles](#ResearchArticles)<br/>
+  [3. Case Studies](#CaseStudies)<br/>
+  [4. Further Reading](#FurtherReading)<br/>
+<br/>
+ 
+ 
 ##  2. <a name='ResearchArticles'></a>Research Articles
 
-This section primarily covers work that uses computer vision and machine learning (in particular deep learning) on aspects around wildlife conservation using drones (e.g. animal detection or tracking).
+Papers are ordered alphabetically by the last name of the first author. If possible, links, images and a brief summary are provided.<br/><br/>
 
-The list is organized into topics, and therein ordered alphabetically by the last name of the first author. If possible, links, images and a brief summary are provided.
-
-<br />
-
-**Keywords**
-
-*Note that these "links" do not really work; they're just marked up as such to make them stand out a bit. Best to use your browser's built-in search function.*
-
-[Deep Learning](#deepLearning), [ResNet](#resnet), [Faster R-CNN](#frcnn), [R-FCN](#rfcn), [SSD](#ssd), [YOLO](#yolo)
-
-
-[SVM](#svm), [Exemplar SVM](#esvm)
-
-[Kanade-Lucas-Tomasi](#klt), [Kernelized Correlation Filter](#kcf)
-
-
-[Marine](#marine), [Cattle](#cattle), [Wild Mammals](#wildMammals), [Birds](#birds)
-
-
-
-<br />
-<br />
-
-
-###  2.1. <a name='AnimalDetection'></a>Animal Detection
-
+<!--
 **Chen, Chien-Hung, and Keng-Hao Liu. "Stingray detection of aerial images with region-based convolution neural network." _2017 IEEE International Conference on Consumer Electronics-Taiwan (ICCE-TW)_. IEEE, 2017.**
-*(description still pending)*<br />
-[Deep Learning](#deepLearning), [Faster R-CNN](#frcnn), [Marine](#marine)
+
+TODO
+
+*Keywords: deep learning, faster r-cnn, marine*<br/><br/>
+-->
+
+**[Corcoran, Evangeline, et al. Automated detection of koalas using low-level aerial surveillance and machine learning. Scientific reports 9.1 (2019): 3208.](https://www.nature.com/articles/s41598-019-39917-5.pdf)**
 
 
-<br />
+The authors employ an ensemble of off-the-shelf Faster R-CNN and YOLO models (predictions fused by averaging) to detect koalas. Noteworthy detail: double-counts due to overlapping images are resolved by finding correspondences (via ORB features) and averaging the detection heatmaps in the overlap zones.
+
+Dataset available on request.
+
+*Keywords: deep learning, faster r-cnn, wild mammals*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Corcoran.png" width="500"><br/><br/>
 
 
-**[Corcoran, Evangeline, et al. "Automated detection of koalas using low-level aerial surveillance and machine learning." Scientific reports 9.1 (2019): 3208.](https://www.nature.com/articles/s41598-019-39917-5.pdf)**
-![Corcoran et al.](media/paper_Corcoran.png)
+**[van Gemert, Jan C., et al. Nature conservation drones for automatic localization and counting of animals. European Conference on Computer Vision. Springer, Cham, 2014.](https://staff.fnwi.uva.nl/p.s.m.mettes/papers/drones-eccvw14.pdf)**
 
-*The authors employ an ensemble of off-the-shelf Faster R-CNN and YOLO models (predictions fused by averaging) to detect Koalas. Noteworthy detail: double-counts due to overlapping images are resolved by finding correspondences (via ORB features) and averaging the detection heatmaps in the overlap zones.
-Dataset available on request.*<br />
-[Deep Learning](#deepLearning), [Faster R-CNN](#frcnn), [YOLO](#yolo), [Wild Mammals](#wildMammals)
+Traditional ML methods (DPM, eSVM) for cattle detection. They also do counting using videos and a KLT tracker. One of the early works, with a straightforward dataset.
 
+*Keywords: SVM, tracking, cattle*
 
-<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_vanGemert.png" width="500"><br/><br/>
 
 
-**[van Gemert, Jan C., et al. "Nature conservation drones for automatic localization and counting of animals." European Conference on Computer Vision. Springer, Cham, 2014.](https://staff.fnwi.uva.nl/p.s.m.mettes/papers/drones-eccvw14.pdf)**
-![van Gemert et al.](media/paper_vanGemert.png)
+**[Hong, Suk-Ju, et al. Application of Deep-Learning Methods to Bird Detection Using Unmanned Aerial Vehicle Imagery. Sensors 19.7 (2019): 1651.](https://www.mdpi.com/1424-8220/19/7/1651)**
 
-*Traditional ML methods (DPM, eSVM) for cattle detection. They also do counting using videos and a KLT tracker. One of the early works, with a straight-forward dataset.*<br />
-[Exemplar SVM](#esvm), [Kanade-Lucas-Tomasi](#klt), [Cattle](#cattle)
+Comparison of standard detectors (Faster R-CNN, R-FCN, SSD, YOLO) on birds. Interesting detail: they also use bird decoys for data augmentation.
 
+*Keywords: deep learning, faster r-cnn, r-fcn, ssd, yolo, birds*
 
-<br />
-
-
-**[Hong, Suk-Ju, et al. "Application of Deep-Learning Methods to Bird Detection Using Unmanned Aerial Vehicle Imagery." Sensors 19.7 (2019): 1651.](https://www.mdpi.com/1424-8220/19/7/1651)**
-![Hong et al.](media/paper_Hong.png)
-
-*Comparison of standard detectors (Faster R-CNN, R-FCN, SSD, YOLO) on birds. Interesting detail: they also use bird decoys for further augmentations.*<br />
-[Deep Learning](#deepLearning), [Faster R-CNN](#frcnn), [R-FCN](#rfcn), [SSD](#ssd), [YOLO](#yolo), [Birds](#birds)
-
-
-<br />
-
-
-**[Kellenberger, Benjamin, Diego Marcos, and Devis Tuia. "Detecting mammals in UAV images: Best practices to address a substantially imbalanced dataset with deep learning." Remote sensing of environment 216 (2018): 139-153.](https://arxiv.org/pdf/1806.11368.pdf)**
-![Kellenberger et al.](media/paper_Kellenberger.png)
-
-*This paper presents tricks to handle the scarcity of animals in UAV imagery.
-Dataset freely available.*<br />
-[Deep Learning](#deepLearning), [ResNet](#resnet), [Wild Mammals](#wildMammals)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Hong.png" width="500"><br/><br/>
 
 
 
-<br />
+**[Kellenberger, Benjamin, Diego Marcos, and Devis Tuia. Detecting mammals in UAV images: Best practices to address a substantially imbalanced dataset with deep learning. Remote sensing of environment 216 (2018): 139-153.](https://arxiv.org/pdf/1806.11368.pdf)**
+
+This paper presents tricks to handle the scarcity of animals in UAV imagery.
+
+Dataset freely available.
+
+*Keywords: deep learning, resnet, wild mammals*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Kellenberger.png" width="500"><br/><br/>
 
 
-**[Okafor, Emmanuel, et al. "Operational data augmentation in classifying single aerial images of animals." 2017 IEEE International Conference on INnovations in Intelligent SysTems and Applications (INISTA). IEEE, 2017.](http://www.ai.rug.nl/~mwiering/GROUP/ARTICLES/INISTA_Data_Augmentation_Okafor.pdf)**
-<br />*and*<br />
-**[Okafor, Emmanuel, Lambert Schomaker, and Marco A. Wiering. "An analysis of rotation matrix and colour constancy data augmentation in classifying images of animals." Journal of Information and Telecommunication 2.4 (2018): 465-491.](https://www.tandfonline.com/doi/full/10.1080/24751839.2018.1479932)**
-![Okafor et al., 2017](media/paper_Okafor.png)
+**[Okafor, Emmanuel, et al. Operational data augmentation in classifying single aerial images of animals."2017 IEEE International Conference on INnovations in Intelligent SysTems and Applications (INISTA). IEEE, 2017.](http://www.ai.rug.nl/~mwiering/GROUP/ARTICLES/INISTA_Data_Augmentation_Okafor.pdf)**
 
-*These papers’ main focus lies on maximizing the variability of the animals a CNN gets to see; to this end the authors propose to position individuals in all rotational variations across the screen, in-painting the holes in-between with nearest neighbors.*<br />
-[Deep Learning](#deepLearning), [Cattle](#cattle)
+**[Okafor, Emmanuel, Lambert Schomaker, and Marco A. Wiering. An analysis of rotation matrix and colour constancy data augmentation in classifying images of animals. Journal of Information and Telecommunication 2.4 (2018): 465-491.](https://www.tandfonline.com/doi/full/10.1080/24751839.2018.1479932)**
 
+These papers focus on maximizing the variability of the animals a CNN gets to see; the authors position individuals in all rotational variations across the screen, in-painting holes with nearest neighbors.*
 
-<br />
+*Keywords: deep learning, cattle*
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Okafor.png" width="500"><br/><br/>
+
 
 
 **[Rey, Nicolas, et al. "Detecting animals in African Savanna with UAVs and the crowds." Remote sensing of environment 200 (2017): 341-351.](https://arxiv.org/pdf/1709.01722)**
-![Rey et al.](media/paper_Rey.png)
 
-*Work performing big mammal detection in the African Savanna using hand-crafted features (Histogram of Colors, Bag of Visual Words) and an Exemplar SVM.*<br />
-[Exemplar SVM](#esvm), [Wild Mammals](#wildMammals)
+Mammal detection in the African savanna using hand-crafted features (histogram of colors, bag of visual words) and an exemplar SVM.
 
+*Keywords: exemplar SVM, wild mammals*
 
-<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Rey.png" width="500"><br/><br/>
 
 
-**[Rivas, Alberto, et al. "Detection of Cattle Using Drones and Convolutional Neural Networks." Sensors 18.7 (2018): 2048.](https://www.mdpi.com/1424-8220/18/7/2048)**
-![Rivas et al.](media/paper_Rivas.png)
+**[Rivas, Alberto, et al. Detection of Cattle Using Drones and Convolutional Neural Networks. Sensors 18.7 (2018): 2048.](https://www.mdpi.com/1424-8220/18/7/2048)**
 
-*Heatmap-based animal detection with low flying altitude and comparably clear foreground/background separability. The authors use a small, custom CNN that is similar to LeNet.*<br />
-[Deep Learning](#deepLearning), [Cattle](#cattle)
+Heatmap-based animal detection in low-altitude imagery that provides relatively clear foreground/background separability. The authors use a custom CNN that is similar to LeNet.
 
+*Keywords: deep learning, cattle*
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Rivas.png" width="500"><br/><br/>
 
-<br />
-<br />
 
+**[Andrew William, Colin Greatwood, and Tilo Burghardt. Visual localisation and individual identification of Holstein Friesian cattle via deep learning. Proceedings of the IEEE International Conference on Computer Vision. 2017.](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w41/Andrew_Visual_Localisation_and_ICCV_2017_paper.pdf)**
 
-###  2.2. <a name='AnimalTracking'></a>Animal Tracking
+Combination of off-the-shelf models (R-CNN and a KCF tracker) for cattle monitoring.
 
-**[Andrew, William, Colin Greatwood, and Tilo Burghardt. "Visual localisation and individual identification of Holstein Friesian cattle via deep learning." Proceedings of the IEEE International Conference on Computer Vision. 2017.](http://openaccess.thecvf.com/content_ICCV_2017_workshops/papers/w41/Andrew_Visual_Localisation_and_ICCV_2017_paper.pdf)**
-![William et al.](media/paper_William.png)
+*Keywords: deep learning, kcf, tracking, cattle*
 
-*Combination of off-the-shelf models (R-CNN and a KCF tracker) for cattle monitoring.*<br />
-[Deep Learning](#deepLearning), [Kernelized Correlation Filter](#kcf)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_William.png" width="500"><br/><br/>
 
 
 
-<br />
-<br />
 
 
+**[Longmore, S. N., et al. Adapting astronomical source detection software to help detect animals in thermal images obtained by unmanned aerial systems. International Journal of Remote Sensing 38.8-10 (2017): 2623-2638.](https://arxiv.org/pdf/1701.01611.pdf)**
 
-###  2.3. <a name='ThermalImagery'></a>Thermal Imagery
+This paper does peak finding by thresholding, followed by HOG and SVM, to detect animals in thermal imagery.
 
-**[Longmore, S. N., et al. "Adapting astronomical source detection software to help detect animals in thermal images obtained by unmanned aerial systems." International Journal of Remote Sensing 38.8-10 (2017): 2623-2638.](https://arxiv.org/pdf/1701.01611.pdf)**
-![Longmore et al.](media/paper_Longmore.png)
+*Keywords: svm, thermal, cattle*
 
-*This paper does peak finding by thresholding, followed by HOG and SVM, to detect animals in thermal imagery.*<br />
-[SVM](#svm)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Longmore.png" width="500"><br/><br/>
 
 
+**[Bondi, Elizabeth, et al. Spot poachers in action: Augmenting conservation drones with automatic detection in near real time. Thirty-Second AAAI Conference on Artificial Intelligence. 2018.](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16282/16380)**
 
-<br />
+An integrated, cloud-based framework that uses Faster R-CNN on thermal data to localize poachers.
 
+*Keywords: deep learning, faster r-cnn, thermal, poaching*
 
-**[Bondi, Elizabeth, et al. "Spot poachers in action: Augmenting conservation drones with automatic detection in near real time." Thirty-Second AAAI Conference on Artificial Intelligence. 2018.](https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/download/16282/16380)**
-![SPOT](media/paper_Bondi_SPOT.png)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Bondi_SPOT.png" width="500"><br/><br/>
 
-*An integrated, cloud-based framework that uses Faster R-CNN on thermal data to localize poachers.*<br />
-[Deep Learning](#deepLearning), [Faster R-CNN](#frcnn)
 
 
-<br />
 
 
-**[Bondi, Elizabeth, et al. "Airsim-w: A simulation environment for wildlife conservation with uavs." Proceedings of the 1st ACM SIGCAS Conference on Computing and Sustainable Societies. ACM, 2018.](https://www.cais.usc.edu/wp-content/uploads/2018/05/bondi_camera_ready_airsim-w.pdf)**
-![Airsim-w](media/paper_Bondi_AirSim.png)
 
-*Using a rendering engine (AirSim, based on the Unreal Engine) to simulate an African ecosystem and derive thermal signatures from to train a detector.*<br />
-[Wild Mammals](#wildMammals)
+**[Bondi, Elizabeth, et al. AirSim-W: A Simulation Environment for Wildlife Conservation with UAVs. Proceedings of the 1st ACM SIGCAS Conference on Computing and Sustainable Societies. ACM, 2018.](https://www.cais.usc.edu/wp-content/uploads/2018/05/bondi_camera_ready_airsim-w.pdf)**
 
+Uses a rendering engine ([AirSim](https://github.com/microsoft/AirSim), based on the Unreal Engine) to simulate an African ecosystem and derive thermal signatures for detector training.
 
-<br />
-<br />
+*Keywords: deep learning, thermal, simulation*
 
-***
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Bondi_AirSim.png" width="500"><br/><br/>
 
-<br />
-<br />
 
-##  3. <a name='CaseStudies'></a>Case Studies
+## 3. <a name='CaseStudies'></a>Case Studies
 
-###  3.1. <a name='Anti-PoachinginTanzania'></a>Anti-Poaching in Tanzania
+**Delair / Bathawk**
 
-![Delair IR](media/caseStudy_delair.png)
+Collaboration between drone manufacturer [Delair](https://delair.aero/antipoaching-operations-with-drones/) and Tanzanian anti-poaching service [Bathawk Recon](https://www.linkedin.com/company/bathawk-recon/about/). Used mainly IR footage for detecting poachers and mammals.  Presented as a [video](https://www.youtube.com/watch?v=OvRA8aWttq4).
 
-Collaboration of drone manufacturer [Delair](https://delair.aero/antipoaching-operations-with-drones/) and Tanzanian anti-poaching service [Bathawk Recon](https://www.youtube.com/channel/UC4tla1LJh4UOeg9F_AV1LEw). Used mainly IR footage for detecting poachers as well as mammals.<br />
-*See also:* [Video](https://www.youtube.com/watch?v=OvRA8aWttq4)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caseStudy_delair.png" width="500"><br/><br/>
 
 
-<br />
+**Mara Elephant Project / DJI**
 
+Collaboration between the [Mara Elephant Project](https://maraelephantproject.org/unmanned-aerial-vehicles-hec-mitigation/) and drone manufacturer [DJI](https://www.dji.com/).  Presented as a [video](https://www.youtube.com/watch?v=DWE72zf4WVQ).
 
-###  3.2. <a name='ProtectingKenyasElephantsfromAbove'></a>Protecting Kenya's Elephants from Above
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caseStudy_maraElephant.png" width="500"><br/><br/>
 
-![Mara Elephant](media/caseStudy_maraElephant.png)
 
-One of the efforts made by the [Mara Elephant Project](https://maraelephantproject.org/unmanned-aerial-vehicles-hec-mitigation/) in collaboration with manufacturer [Expert Drones](http://www.expertdrones.com/).<br />
-*See also:* [Video](https://www.youtube.com/watch?v=DWE72zf4WVQ)
+**Where’s Bunga? Tracking Orangutans with Drones and Gnu-Radio**
 
+Technical POC created by [Dirk Gorissen](https://dirkgorissen.com/) in collaboration with [International Animal Rescue](https://www.internationalanimalrescue.org).  Deployed a semi-automatic drone to identify orangutans in the Bornean rainforest. 
 
-<br />
+> <https://dirkgorissen.com/2019/01/06/wheres-pinoh-tracking-orangutans-with-drones-and-gnu-radio>
 
+> <https://dirkgorissen.com/2016/04/19/wheres-susi-airborne-orangutan-tracking-with-python-and-react-js>
 
-###  3.3. <a name='WheresBungaTrackingOrangutanswithDronesandGnu-Radio'></a>Where’s Bunga? Tracking Orangutans with Drones and Gnu-Radio
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caseStudy_bunga.png" width="500"><br/><br/>
 
-![Orangutan tracking](media/caseStudy_bunga.png)
 
-Study involved the [International Animal Rescue](https://www.internationalanimalrescue.org) organization and deployed a semi-automatic drone to identify Orangutans in the Bornean rainforest. Drone by [Vulcan UAV](http://vulcanuav.com/) (not to be mistaken with [Vulcan Inc.](https://vulcan.com/)).
 
-[Link to site](https://dirkgorissen.com/2019/01/06/wheres-pinoh-tracking-orangutans-with-drones-and-gnu-radio/), [Previous version](https://dirkgorissen.com/2016/04/19/wheres-susi-airborne-orangutan-tracking-with-python-and-react-js/) (both incl. videos).
+**JGI / ConservationDrones.org**
 
+Collaboration between the [Jane Goodall Institute of Canada](https://janegoodall.ca) and [ConservationDrones.org](https://conservationdrones.org/) to explore drone use in a Congolese reserve. Mentioned applications include censuses of chimpanzees.  Presented as a [video](https://www.youtube.com/watch?v=cUzdCH-PDy4).
 
-<br />
+> <https://conservationdrones.org/2015/05/06/view-from-above-using-drones-to-help-support-jane-goodall-institute-conservation-efforts-in-congo/>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caseStudy_jgi.jpg" width="500"><br/><br/>
 
-###  3.4. <a name='ChimpanzeecensusesinTchimpoungaCongo'></a>Chimpanzee censuses in Tchimpounga, Congo
 
-Collaboration between the [Jane Goodall Institute of Canada](https://janegoodall.ca) and [Conservation Drones](https://conservationdrones.org/) on drone employment in a Congolesian reserve. Mentioned applications include censuses of chimpanzees.
-[Video](https://www.youtube.com/watch?v=cUzdCH-PDy4)
+**Deep Reality Simulation for Automated Poacher Detection**
 
+Leverages AirSim-W (see paper by Bondi et al. above) to generate synthetic thermal imagery for training poacher detection models.  Uses Faster R-CNN, domain adaptation using GANs, and an implementation using MS Azure and Apache Spark.
 
-<br />
+> <https://databricks.com/session/distributed-deep-domain-adaptation-for-automated-poacher-detection>
 
+Also see accompanying [video](https://www.youtube.com/watch?v=m5vAF231XZQ).
 
-###  3.5. <a name='DeepRealitySimulationforAutomatedPoacherDetectionAnandRamanandMarkHamiltonMicrosoft'></a>Deep Reality Simulation for Automated Poacher Detection Anand Raman and Mark Hamilton (Microsoft)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caseStudy_MSSpark.png" width="500"><br/><br/>
 
-![Auto poacher detection](media/caseStudy_MSSpark.png)
-Study in the context of Microsoft's [AI for Earth](https://www.microsoft.com/en-us/ai/ai-for-earth) programme. Addresses AirSim-W (see paper by Bondi et al. above), thermal imagery, Faster R-CNN, domain adaptation using GANs and an implementation using MS Azure and Apache Spark.<br />
-[Video](https://www.youtube.com/watch?v=m5vAF231XZQ)
 
+**Hensoldt**
 
+German sensor manufacturer [Hensoldt](https://www.hensoldt.net/) presents a program intended to stem rhino poaching in South Africa in this [video](https://www.youtube.com/watch?v=4nCCYckAQDc).
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caseStudy_Hensoldt.png" width="500"><br/><br/>
 
 
+##  4. <a name='FurtherReading'></a>Further Reading
 
-<br />
-<br />
-
-***
-
-<br />
-<br />
-
-
-
-##  4. <a name='Organizations'></a>Organizations
-
-These are enterprises, startups, NGOs and the like that are involved in some way with animal conservation.
-
-
-###  4.1. <a name='ConservationDroneshttps:conservationdrones.org'></a>[ConservationDrones](https://conservationdrones.org/)
-
-![ConservationDrones.org](media/company_consDrones.png)
-
-
-<br />
-
-
-###  4.2. <a name='Hensoldt'></a>[Hensoldt](https://www.hensoldt.net/)
-![Hensoldt](media/caseStudy_Hensoldt.png)
-German company [Hensoldt](https://www.hensoldt.net/) rolling out a programme to stem rhino poaching in South Africa.
-
-[Video](https://www.youtube.com/watch?v=4nCCYckAQDc)
-
-
-
-<br />
-
-
-
-###  4.3. <a name='VulcanInc.https:vulcan.com'></a>[Vulcan Inc.](https://vulcan.com/)
-
-![Vulcan Inc.](media/company_vulcan.png)
-
-Company engaged in multifarious projects, also for [conservation](http://engineering.vulcan.com/2019_0513_Partnerships-and-the-collaborative-appro.aspx).
-[Blog](http://engineering.vulcan.com/blog?topic=Wildlife_Conservation) on wildlife conservation.
+[ConservationDrones.org blog: applications](https://conservationdrones.org/category/drone-applications/) (incredible collection of additional case studies)<br/><br/>
+[ConservationDrones.org blog: publications](https://conservationdrones.org/publications-on-drones-and-conservation/) (incredible collection of additional research papers)<br/><br/>
+[Awesome Deep Ecology](https://github.com/patrickcgray/awesome-deep-ecology) (review of deep learning applications in ecology)<br/><br/>
+[Camera Trap ML Survey](https://agentmorris.github.io/camera-trap-ml-survey/) (analogous list for camera traps)<br/><br/>
