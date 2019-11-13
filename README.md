@@ -88,7 +88,7 @@ Use ResNet-18 for feature generation, add two additional custom layers to turn t
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paper_Kellenberger.png" width="500"><br/><br/>
 
 
-**Kellenberger, B., Volpi, M., & Tuia, D. (2017, July). Fast animal detection in UAV images using convolutional neural networks. In 2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS) (pp. 866-869). IEEE.**
+**[Kellenberger, B., Volpi, M., & Tuia, D. (2017, July). Fast animal detection in UAV images using convolutional neural networks. In 2017 IEEE International Geoscience and Remote Sensing Symposium (IGARSS) (pp. 866-869). IEEE.](https://ieeexplore.ieee.org/document/8127090)**
 
 Train a custom detector network based on an AlexNet backbone for detecting African mammals in UAV imagery.  Compare to Fast-RCNN with the same AlexNet backbone.  Find improved F1 and substantially improved computational performance with the custom model than with Fast-RCNN, at the cost of lower recall.
 
